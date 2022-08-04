@@ -335,9 +335,7 @@ export class BackendAPIService {
     });
   }
 
-  GetReferralInfoForReferralHash(
-    ReferralHash: string
-  ): Observable<{
+  GetReferralInfoForReferralHash(ReferralHash: string): Observable<{
     ReferralInfoResponse: any;
     CountrySignUpBonus: CountryLevelSignUpBonus;
   }> {
