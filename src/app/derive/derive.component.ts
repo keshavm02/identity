@@ -3,7 +3,7 @@ import { AccountService } from '../account.service';
 import { DerivePayload, IdentityService } from '../identity.service';
 import {
   BackendAPIService,
-  CoinLimitOperationString,
+   CoinLimitOperationString,
   CoinOperationLimitMap,
   TransactionSpendingLimitResponse,
   User,
