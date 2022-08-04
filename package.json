@@ -11,11 +11,11 @@
     "build_prod": "./node_modules/.bin/ng build --configuration production --base-href / --deploy-url /",
     "ngcc": "./node_modules/.bin/ngcc --properties es2015",
     "format": "npx prettier --write .",
-    "testing": "pretty-quick --staged --verbose"
+    "format-staged": "pretty-quick --staged --verbose"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged --verbose"
+      "pre-commit": "npm run format-staged"
     }
   },
   "private": true,
