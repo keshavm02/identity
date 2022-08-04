@@ -12,8 +12,8 @@ import { GlobalVarsService } from '../global-vars.service';
 import { GoogleDriveService } from '../google-drive.service';
 import { UserProfile } from '../../types/identity';
 import { ActivatedRoute, Router } from '@angular/router';
-import {RouteNames } from '../app-routing.module';
-import { TransactionSpendingLimit } from 'src/lib/deso/transaction';
+import { RouteNames } from '../app-routing.module';
+import {TransactionSpendingLimit } from 'src/lib/deso/transaction';
 
 @Component({
   selector: 'app-derive',
