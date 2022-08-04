@@ -10,11 +10,12 @@
     "e2e": "ng e2e",
     "build_prod": "./node_modules/.bin/ng build --configuration production --base-href / --deploy-url /",
     "ngcc": "./node_modules/.bin/ngcc --properties es2015",
-    "format": "npx prettier --write ."
+    "format": "npx prettier --write .",
+    "testing": "pretty-quick --staged --verbose"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "pretty-quick --staged --verbose"
     }
   },
   "private": true,
