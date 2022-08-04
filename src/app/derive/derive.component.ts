@@ -8,7 +8,7 @@ import {
   TransactionSpendingLimitResponse,
   User,
 } from '../backend-api.service';
-import { GlobalVarsService } from '../global-vars.service';
+import {GlobalVarsService } from '../global-vars.service';
 import { GoogleDriveService } from '../google-drive.service';
 import { UserProfile } from '../../types/identity';
 import {ActivatedRoute, Router } from '@angular/router';
